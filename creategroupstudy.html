@@ -66,7 +66,7 @@
   <!-- End Header -->
 
   <!-- Create Group Study Title -->
-  <section>
+  <section class="mt-5">
     <div class="container create-group-study">
       <h1>Find suitable group to study accordingly to your need </h1>
       <p>If you are looking for a tutor to help you in your studies then “Learn and Earn” is the perfect platform for
@@ -81,31 +81,31 @@
   <!-- Group Study Post Section & Help Desks -->
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-md-7">
           <!-- Form itself -->
-          <form action="creategroup.php" method="post">
+          <form action="#" method="post">
             <div class="form-group">
               <!-- Select Courses -->
               <label for="exampleFormControlSelect1" class="fw-bold">Select Course</label>
-              <select class="form-control" id="exampleFormControlSelect1" name="courseID">
+              <select class="form-control mt-3" id="exampleFormControlSelect1" name="courseID">
                 <option>--Select One--</option>
                 <option value=""></option>
               </select>
             </div>
             <!-- Topic & Details -->
             <div class="form-group">
-              <label for="exampleInputdetails" class="fw-bold">Topic and Details</label>
-              <input type="text" class="form-control" id="exampleInputdetails" aria-describedby="emailHelp"
+              <label for="exampleInputdetails" class="fw-bold mt-3">Topic and Details</label>
+              <input type="text" class="form-control mt-3" id="exampleInputdetails" aria-describedby="emailHelp"
                 placeholder="Details about topic area and others ..." name="details" style="height: 130px;">
             </div>
             <!-- Start/End Time -->
             <div class="form-group">
-              <label for="exampleFormControlSelect1" class="fw-bold">Pick Start Time:</label><br>
-              <input type="datetime-local" name="stime" placeholder="Enter End Date and time" required>
+              <label for="exampleFormControlSelect1" class="fw-bold mt-3">Pick Start Time:</label><br>
+              <input class="mt-3" type="datetime-local" name="stime" placeholder="Enter End Date and time" required>
               <br>
-              <label for="exampleFormControlSelect1" class="fw-bold">Pick End Time:</label><br>
-              <input type="datetime-local" name="etime" placeholder="Enter End Date and time" required>
+              <label for="exampleFormControlSelect1" class="fw-bold mt-3">Pick End Time:</label><br>
+              <input class="mt-3" type="datetime-local" name="etime" placeholder="Enter End Date and time" required>
               <button type="addtime" class="btn btn-primary" name="TimeAdd"
                 style="background-color: #0c4270; padding: 5px 5px;">+</button>
             </div>
