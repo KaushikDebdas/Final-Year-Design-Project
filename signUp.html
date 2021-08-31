@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="shortcut icon" href="images/logo/brain 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid main-header">
+        <a class="navbar-brand" href="#"><img src="images/logo/brain 1.png" alt="">Learn & Earn</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Group Study</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="creategroupstudy.html">Create Group Study</a></li>
+                <li><a class="dropdown-item" href="viewgroupstudy.html">Post Group Study</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Tuition</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="createtuitionpost.html">Find Tutor</a></li>
+                <li><a class="dropdown-item" href="viewtuitionpost.html">Find Tutor's Post</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notes.html">Notes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Contact</a>
+            </li>
+            <li class="nav-item logInBtn">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item signUpBtn">
+              <a href="signUp.html" class="nav-link">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="signUp mt-5" id="signUp">
+      <div class="container signUp mb-5">
+          <div class="row">
+              <div class="row mb-5">
+                  <h3>Registration form</h3>
+              </div>
+             <div class="row">
+                  <div class="col">
+                    <p>Full Name <span>*</span></p>
+                    <input class="signUpInput" type="text" placeholder="Type your email">
+                  </div>
+                  <div class="col">
+                    <p>Phone Number <span>*</span></p>
+                    <input class="signUpInput" type="text" placeholder="Type your email">
+                  </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                  <p>Email <span>*</span></p>
+                  <input class="signUpInput" type="text" placeholder="Type your email">
+                </div>
+                <div class="col">
+                  <p>Password <span>*</span></p>
+                  <input class="signUpInput" type="text" placeholder="Type your email">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                  <p>Department</p>
+                  <select class="signupDropDon">
+                    <option value="volvo">Select department</option>
+                    <option value="saab">CSE</option>
+                    <option value="opel">EEE</option>
+                    <option value="audi">BBA</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <p>Re-enter Password <span>*</span></p>
+                  <input class="signUpInput" type="text" placeholder="Type your email">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                  <p>Geder</p>
+                  <select class="signupDropDon">
+                    <option value="volvo">Gender</option>
+                    <option value="saab">Male</option>
+                    <option value="opel">Female</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <p class="end-text mb-4">By using this form you agree with the storage
+                    and handling of your data by this website.</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="loginSignInBtn" href="">Register</a>
+                        </li>
+                        <li>
+                          <a class="loginForgetBtn" href="login.html">Login</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+   <!-- Footer -->
+   <footer class="text-center text-lg-start bg-light text-muted mt-5" id="subscribe">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <a class="navbar-brand" href="index.html"><img src="images/logo/brain 1.png" alt="logo">Learn & Earn</a>
+            </h6>
+            <h6>United International University</h6>
+            <p>100 feet road , Madani evenue
+              Vatara thana , Dhaka 1212</p>
+            <p>Phone : +880175-7921768</p>
+            <p>Email : samplemail@gmail.com</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Quick Links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Latest Events</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Terms & Conditions</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">About</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 0175-7921768</p>
+            <p><i class="fas fa-print me-3"></i> 0168-5474608</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="#">All rights reserverd by kaushikdebdas27</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

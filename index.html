@@ -21,7 +21,7 @@
   <!-- Header -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid main-header">
         <a class="navbar-brand" href="#"><img src="images/logo/brain 1.png" alt="">Learn & Earn</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -56,6 +56,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#subscribe">Contact</a>
             </li>
+            <li class="nav-item logInBtn">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item signUpBtn">
+              <a href="signUp.html" class="nav-link">Sign up</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -66,41 +72,43 @@
 
    <!-- Banner Slider-->
   <section class="#">
-    <div class="container">
       <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row d-flex align-items-center">
-              <div class="col-md-7">
-                <h1>Learn & Earn With Us</h1>
+              <div class="col-md-4">
+                <h1>Learn & Earn <span> With Us</span></h1>
                 <p>Learn and Earn is an intelligent networking platform where users will be able to take and pay tuition at their convenience. A web based intelligent platform for personal tutor and consultation.</p>
+                <br>
                 <button class="new-button">Learn More</button>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-8">
                 <img src="images/banner/banner-1.png" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row d-flex align-items-center">
-              <div class="col-md-7">
-                <h1>Learn & Earn With Us</h1>
+              <div class="col-md-4">
+                <h1>Learn & Earn <span> With Us</span></h1>
                 <p>Learn and Earn is an intelligent networking platform where users will be able to take and pay tuition at their convenience. A web based intelligent platform for personal tutor and consultation.</p>
+                <br>
                 <button class="new-button">Learn More</button>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-8">
                 <img src="images/banner/banner-2.png" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row d-flex align-items-center">
-              <div class="col-md-7">
-                <h1>Learn & Earn With Us</h1>
+              <div class="col-md-4">
+                <h1>Learn & Earn <span> With Us</span></h1>
                 <p>Learn and Earn is an intelligent networking platform where users will be able to take and pay tuition at their convenience. A web based intelligent platform for personal tutor and consultation.</p>
+                <br>
                 <button class="new-button">Learn More</button>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-8">
                 <img src="images/banner/banner-3.png" class="d-block w-100" alt="...">
               </div>
             </div>
@@ -117,16 +125,64 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
   </section>
 
-  <!-- Mission & Vision -->
-  <section class="" id="vision">
-    <div class="container vision">
-      <h1>Mission & Vision</h1>
-      <p>Our goal is to help the sudents with the studies with some features but also to buid communication , share
-        knowledge and improve globally.</p><br>
+  <!-- Top tutor card-->
+  <section class="mt-5" id="vision">
+    <div class="container vision tuitor">
+      <h1>Top <span>Tutor</span></h1>
+      <p class="sub mt-5">Our goal is to help the sudents with the studies with some features but also to <span>buid communication , share knowledge and improve globally.</span> </p>
+      <br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="tutor-card">
+            <img class="center-block" src="images/top tutor/1.jpg" class="card-img-top" alt="...">
+            <div class="tt">
+              <h5 class="card-title">Achivements</h5>
+              <p class="card-text">If we can help the students with providing proper concept and better results , its an
+                achievment for us.</p>
+            </div>
+            <div class="tutor-card-body">
+              <button class="tt-button">Explore >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="tutor-card">
+            <img class="center-block" src="images/top tutor/2.jpg" class="card-img-top" alt="...">
+            <div class="tt">
+              <h5 class="card-title">Achivements</h5>
+              <p class="card-text">If we can help the students with providing proper concept and better results , its an
+                achievment for us.</p>
+            </div>
+            <div class="tutor-card-body">
+              <button class="tt-button">Explore >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="tutor-card">
+            <img class="center-block" src="images/top tutor/3.jpg" class="card-img-top" alt="...">
+            <div class="tt">
+              <h5 class="card-title">Achivements</h5>
+              <p class="card-text">If we can help the students with providing proper concept and better results , its an
+                achievment for us.</p>
+            </div>
+            <div class="tutor-card-body">
+              <button class="tt-button">Explore >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Mission & Vision -->
+  <section class="mt-5" id="vision">
+    <div class="container vision">
+      <h1>Mission <span>& Vision</span></h1>
+      <p class="sub mt-5">Our goal is to help the sudents with the studies with some features but also to <span>buid communication , share knowledge and improve globally.</span> </p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
         <div class="col">
           <div class="card h-100">
             <img class="center-block" src="images/vision/vision-1.png" class="card-img-top" alt="...">
@@ -165,14 +221,12 @@
   </section>
 
   <!-- Our Platforms -->
-  <section id="platforms">
+  <section class="mt-5" id="platforms">
     <div class="container platforms">
       <h1>Our Platforms</h1>
-      <p>Learn & Earn is an intelligent networking platform. Initially we can cover our university area. Our goal is to
-        help the sudents with the studies with some following features like tuition arrangment, arranging group study,
-        finding team member and resource sharing. Almost every student faces some problem with their studies equally.
-        Based on their problem we designed our programs.</p><br>
-      <div class="row">
+      <p class="sub mt-5">Learn & Earn is an intelligent networking platform.we designed our programs , <span> 
+          Based on their problem we designed our programs.</span></p><br>
+      <div class="row mt-5">
         <div class="col-md-7"><img src="images/banner/banner-5.png" alt="" srcset=""></div>
         <div class="col-md-5">
           <div class="accordion" id="accordionExample">
@@ -252,11 +306,11 @@
   </section>
   
   <!-- Team Members -->
-  <section class="" id="about">
+  <section class="mt-5 mb-5" id="about">
     <div class="container about">
       <h1>Our Team</h1>
-      <p>We are lead by a team who constanly questions,thinked and challages to unlock great creativity around every turn.</p><br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <p class="sub mt-5">We are lead by a team who constanly questions,thinked and challages <span>to unlock great creativity around every turn.</span></p><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
         <div class="col">
           <div class="card h-100">
             <img class="center-block" src="images/team/1.png" class="card-img-top" alt="...">
@@ -341,7 +395,7 @@
   </section> 
 
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted" id="subscribe">
+  <footer class="text-center text-lg-start bg-light text-muted mt-5 footer" id="subscribe">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
