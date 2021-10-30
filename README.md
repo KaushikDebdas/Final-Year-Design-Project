@@ -1,5 +1,6 @@
 # Learn & Earn - An Intelligent Networking Platform
-
+Learn and Earn is an intelligent networking platform where users will be able to take and pay tuition 
+at their convenience. A web based intelligent platform for personal tutor and consultation.
 
 # Screenshots
 
