@@ -3,10 +3,13 @@
 
 ## Screenshots
 
-### login
+### Login
+
 ![login](https://user-images.githubusercontent.com/67013658/139542930-a0fe0e96-974c-4b31-8da8-5367e9cabae2.png)
 
-### home
+
+### Home
+
 ![home](https://user-images.githubusercontent.com/67013658/139542948-373a6761-a2b6-4a8c-9eba-c43bc1bf091e.png)
 
 ### group study create
