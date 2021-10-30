@@ -2,206 +2,343 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.main-body {
+  padding: 0px 30px;
+  transition: all 0.25s ease;
+}
+
 .carouselExampleControls {
   width: 100%;
 }
+
 .navbar {
-  padding: 10px;
+  padding: 2px 10px;
+  border-bottom: 1px solid #E5E9F2;
 }
+
 .navbar img {
   height: 40px;
   width: 40px;
-  left: 290px;
   top: 30px;
   border-radius: 50px;
 }
+
+.navLogo {
+  color: rgb(254, 112, 88);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navLogo:hover {
+  color: #000000;
+}
+
 .carousel-item img {
   height: 75vh;
 }
+
 .carousel-inner {
-  padding-left: 70px;
+  /* padding-left: 70px; */
+  padding: 25px;
 }
+
 .carousel-item h1 {
   color: #27ccbc;
   font-weight: 600;
 }
+
 .carousel-item p {
   font-size: 20px;
 }
+
 .main-header {
   padding: 10px 50px 10px 50px;
 }
+
 .nav-item a {
   font-weight: 600;
+  font-size: 16px;
+  color: #565656;
 }
-.logInBtn {
+
+.nav-item a:hover {
+  color: rgb(254, 112, 88);
+}
+
+.logInBtn, .signUpBtn {
   background-color: #fef0ee;
   padding: 0 20px 0 20px;
   border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.logInBtn {
+  margin-left: 5px;
+}
+
 .signUpBtn {
   background-color: rgb(254, 112, 88);
-  padding: 0 20px 0 20px;
-  border-radius: 6px;
+  margin-left: 13px;
 }
+
+.signUp {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logIn {
+  color: rgb(254, 112, 88);
+  text-decoration: none;
+}
+
+.logIn:hover, .signUp:hover {
+  color: #565656;
+}
+
+/* banner slider */
+
+.sliderDescription h1 {
+  font-size: 38px;
+}
+
+.sliderDescription p {
+  font-size: 16px;
+}
+
+/* banner Slider */
+
 .carousel-item h1 span {
-  color: #ff136f;
+  color: rgb(254, 112, 88);
 }
+
 .price {
   color: #ff136f;
 }
-.new-button {
-  background-color: transparent;
-  color: rgb(254, 112, 88);
+
+/* learn more button */
+
+.learnMoreBtn {
+  background-color: rgb(254, 112, 88);
   border-radius: 8px;
-  padding: 10px 20px 10px 20px !important;
-  border: none;
-  text-align: center !important;
-  max-width: 200px;
+  padding: 10px 34px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-style: none;
+  outline-style: none;
+  margin-top: 20px;
 }
+
+
+
+.new-button {
+  background-color: rgb(254, 112, 88);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #FFFFFF;
+  border-style: none;
+  outline-style: none;
+}
+
+/* .new-button:hover {
+  color: #565656;
+  background-color: #000000;
+} */
+
 .tt-button {
   background-color: transparent;
   color: rgb(254, 112, 88);
   border-radius: 8px;
   padding: 10px 20px 10px 20px !important;
-  border: 2px solid rgb(254, 112, 88);
+  border: 1px solid rgb(254, 112, 88);
   text-align: center !important;
-  max-width: 200px;
+  max-width: 180px;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
 }
+
 .tt-button:hover {
   background-color: tomato;
   color: white;
 }
+
 .sub {
   font-size: 15px;
   font-weight: 400;
   opacity: 60%;
   margin: 0;
 }
+
 .sub span {
   display: block;
 }
+
 .tuitor h1 span {
   color: #27ccbc;
 }
+
 /* top tutor Card Items */
+
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .tutor-card img {
   width: 100% !important;
   border-radius: 6px;
 }
+
 .tt {
   text-align: left !important;
+  margin-top: 20px;
 }
+
 .tt h5 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
+
 .tt p {
   font-family: "Open Sans", sans-serif;
 }
+
 .tutor-card {
   display: flex;
   flex-direction: column !important;
   justify-content: space-between;
-  height: 600px;
-  max-height: 700px;
-  border: none;
-  box-shadow: 5px 5px 10px lightgray;
+  border: 1px solid rgb(241, 240, 240);
   border-radius: 8px;
   padding: 20px;
   text-align: center !important;
 }
+
+.tutor-card:hover {
+  border: none;
+  box-shadow: 3px 5px 10px rgb(230, 228, 228);
+  
+}
+
 .tutor-card-body {
   display: flex;
   flex-direction: column !important;
   justify-content: center !important;
 }
+.card-title{
+  font-size: 18px;
+  color: #18191F;
+}
+.card-text{
+  color: #6C6C6C;
+  font-size: 16px;
+}
+
 /* Vision Card Items */
+
 .vision {
   text-align: center;
   padding: 10px;
 }
+
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .vision img {
   width: 100px;
 }
+
 .vision h1 span {
   color: #27ccbc;
 }
+
 .card {
   border: none;
   box-shadow: 5px 5px 10px lightgray;
   border-radius: 8px;
 }
+
 /* Our Platforms */
+
 .platforms {
   text-align: center;
   padding: 10px;
 }
+
 .platforms img {
   width: 50%;
 }
+
 /* About Us */
+
 .about {
   text-align: center;
   padding: 10px;
   margin-bottom: 150px;
 }
+
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .about img {
   width: 200px;
   height: 200px;
 }
+
 .card {
   border: none;
   box-shadow: 5px 5px 10px lightgray;
   border-radius: 8px;
 }
+
 /* Footer */
+
 /* Group Study */
+
 .create-group-study {
   background-color: #27ccbc;
   color: white;
   border-radius: 8px;
   padding: 50px;
 }
+
 .group-study span {
   color: orange;
 }
+
 .post-everything {
   padding: 20px;
 }
 
 /* login page */
+
 .loginInput {
   max-width: 450px;
   padding: 15px;
   border-radius: 6px;
   border: 2px solid #edf3fd;
 }
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-.list-unstyled > li {
+
+.list-unstyled>li {
   display: inline-block;
 }
+
 .loginSignInBtn {
   padding: 10px 50px 10px 50px;
   background-color: rgb(254, 112, 88);
@@ -209,27 +346,33 @@ body {
   color: white;
   border-radius: 6px;
 }
+
 .loginSignInBtn:hover {
   background-color: transparent;
   color: rgb(254, 112, 88);
 }
+
 .loginForgetBtn {
   padding: 10px 50px 10px 50px;
   text-decoration: none;
   color: rgb(254, 112, 88);
 }
+
 .loginForgetBtn:hover {
   background-color: rgb(254, 240, 238);
   color: rgb(254, 112, 88);
   border-radius: 6px;
 }
+
 .login {
   margin-top: 150px !important;
   margin-bottom: 150px;
 }
+
 .login p {
   margin-bottom: 0;
 }
+
 .login p span {
   color: red !important;
 }
@@ -243,6 +386,7 @@ body {
   border-radius: 6px;
   border: 2px solid #edf3fd;
 }
+
 .signupDropDon {
   width: 450px;
   max-width: 650px;
@@ -250,19 +394,170 @@ body {
   border-radius: 6px;
   border: 2px solid #edf3fd;
 }
+
 .end-text {
   width: 450px;
 }
+
 .signUp p span {
   color: red;
 }
+
 .signUp p {
   margin-bottom: 0;
 }
+
 /* Profile Page */
-.profile{
+
+.profile {}
+
+.profile img {
+  /* width: 150px; */
+}
+
+/* ########## LIVE CHAT and Personal Information ############ */
+h3.menu-title{
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.card.live-chat-menu {
+    /* padding: 10px 20px; */
+    background-color: #edf3fd;
+    padding: 20px 30px 30px 0;
+    box-shadow: none;
+}
+.live-chat-menu div.chat-img img.livechat-photo{
+  width:100px;
+  height: 100px;
+  border-radius:50%;
+  margin-left: 20px;
+
+}
+.live-chat-menu .card-body.livechat-menu-items{
+  margin: 0;
+  padding: 0;
+}
+.live-chat-menu .livechat-menu-items .navbar{
+    margin: 0!important;
+  padding: 0!important;
+}
+.livechat-menu-items .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding-left: 20px;
+    margin: 12px 0;
+}
+.livechat-link{
+    color: rgba(0,0,0,.9);
+    border-left: 5px solid #f72585;
+}
+
+.profile-img{
+  width: 200px;
+  max-width: 100%;
+  padding: 0 10%;
+  border-radius: 15%;
+}
+ul.profile-details{
+  list-style: none;
+  padding-left: 0;
+
+}
+
+ul.profile-details li{
+      margin: 10px 0 10px 0;
+}
+ /* Confirmed Tutions */
+.time {
+    font-size: 14px;
+    font-weight: 300;
+    color: #cbcbcb;
+    text-align: right;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cbcbcb;
+}
+ .confirmed_tution_details{
+
+ }
+ul.confirmed_tution_details-inline li{
+  display: inline;
+      margin: 10px 10px 10px 0;
+}
+span.data-highlighted {
+    color: #27ccbc;
+}
+.confirmed_tution-link{
+    color: rgba(0,0,0,.9);
+    border-left: 5px solid #27ccbc;
   
 }
-.profile img{
-  /* width: 150px; */
+.card-body.detailed_confirmed_tution {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    border: 0.5px solid #cbcbcb;
+    border-radius: 6px;
+}
+.topic_description{}
+.topic_description p{
+  font-size: 14px;
+}
+ 
+ .rating{
+  margin-top: 20px;
+ }
+ .rating .form-control{
+    width: 70%;
+    color:#cbcbcb;
+ }
+ .rating .form-control>option{
+    color:#9e9e93;
+ }
+ .submitbtn{
+      background: #fd7058;
+    border: none;
+    width: 30%;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #fff;
+  }
+/* ########## LIVE CHAT ############ */
+
+/* FOOTER */
+.mainfooter{
+ background-color: #0b0d17!important;
+ color: #fff;
+}
+.mainfooter h6, .mainfooter p{
+  color: #fff;
+}
+.mainfooter a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.mainfooter .footer-top{
+  background-color: #0b0d17;
+  color: #fff;
+}
+.footer-logo{
+  color: #fff;
+}
+.contact i{
+  color: #fe7058;
+}
+.foo_copyright p,.foo_copyright a{
+  color: #fff!important;
+}
+/* FOOTER */
+
+/* responsive design */
+
+@media only screen and (max-width: 992px) {
+  .signUpBtn {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .logInBtn {
+    margin-top: 5px;
+    margin-left: 0;
+  }
 }
